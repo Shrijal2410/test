@@ -506,7 +506,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -8.89 -7.62 0)
 				(length 3.81)
 				(name "GND"
@@ -558,6 +558,125 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol "EMG"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "S"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EMG"
+			(at 1.905 0 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -6.35 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -6.35 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -6.35 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "EMG_0_0"
+			(pin power_in line
+				(at -6.35 2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -6.35 -2.54 0)
+				(length 2.54)
+				(name "ENV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EMG_1_1"
+			(rectangle
+				(start -3.81 5.08)
+				(end 3.81 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -1161,6 +1280,127 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol "LM3940"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM3940"
+			(at 0 1.905 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM3940_0_0"
+			(pin power_in line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM3940_1_0"
+			(pin power_in line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM3940_1_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -1857,7 +2097,7 @@
 			)
 		)
 		(symbol "N20_EN_1_0"
-			(pin power_in line
+			(pin input line
 				(at -8.89 6.35 0)
 				(length 2.54)
 				(name "M+/RED"
@@ -1875,7 +2115,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -8.89 -6.35 0)
 				(length 2.54)
 				(name "M-/WHT"
@@ -1904,6 +2144,114 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+		)
+	)
+	(symbol "PWR"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "J"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR"
+			(at 1.27 -1.27 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PWR_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 3.81 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -3.81 2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -5.08 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -1959,8 +2307,8 @@
 		)
 		(symbol "SAMD09_1_1"
 			(rectangle
-				(start -7.62 16.51)
-				(end 7.62 -16.51)
+				(start -6.35 16.51)
+				(end 6.35 -16.51)
 				(stroke
 					(width 0)
 					(type default)
@@ -1970,7 +2318,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 13.97 0)
+				(at -10.16 13.97 0)
 				(length 3.81)
 				(name "*2"
 					(effects
@@ -1988,7 +2336,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -8.89 0)
+				(at -10.16 -8.89 0)
 				(length 3.81)
 				(name "11"
 					(effects
@@ -2006,7 +2354,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -11.43 0)
+				(at -10.16 -11.43 0)
 				(length 3.81)
 				(name "14"
 					(effects
@@ -2024,7 +2372,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -13.97 0)
+				(at -10.16 -13.97 0)
 				(length 3.81)
 				(name "15"
 					(effects
@@ -2042,7 +2390,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -13.97 180)
+				(at 10.16 -13.97 180)
 				(length 3.81)
 				(name "AD0"
 					(effects
@@ -2060,7 +2408,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -11.43 180)
+				(at 10.16 -11.43 180)
 				(length 3.81)
 				(name "AD1"
 					(effects
@@ -2078,7 +2426,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -8.89 180)
+				(at 10.16 -8.89 180)
 				(length 3.81)
 				(name "SDA"
 					(effects
@@ -2096,7 +2444,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -6.35 180)
+				(at 10.16 -6.35 180)
 				(length 3.81)
 				(name "SCL"
 					(effects
@@ -2114,7 +2462,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -3.81 180)
+				(at 10.16 -3.81 180)
 				(length 3.81)
 				(name "24"
 					(effects
@@ -2132,7 +2480,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -1.27 180)
+				(at 10.16 -1.27 180)
 				(length 3.81)
 				(name "25"
 					(effects
@@ -2150,7 +2498,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 1.27 180)
+				(at 10.16 1.27 180)
 				(length 3.81)
 				(name "RST"
 					(effects
@@ -2168,7 +2516,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 11.43 0)
+				(at -10.16 11.43 0)
 				(length 3.81)
 				(name "*3"
 					(effects
@@ -2186,7 +2534,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 3.81 180)
+				(at 10.16 3.81 180)
 				(length 3.81)
 				(name "SWD"
 					(effects
@@ -2204,7 +2552,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 6.35 180)
+				(at 10.16 6.35 180)
 				(length 3.81)
 				(name "SWC"
 					(effects
@@ -2222,7 +2570,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 8.89 180)
+				(at 10.16 8.89 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2240,7 +2588,7 @@
 				)
 			)
 			(pin power_out line
-				(at 11.43 11.43 180)
+				(at 10.16 11.43 180)
 				(length 3.81)
 				(name "3V3"
 					(effects
@@ -2258,7 +2606,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 13.97 180)
+				(at 10.16 13.97 180)
 				(length 3.81)
 				(name "VIN"
 					(effects
@@ -2276,7 +2624,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 8.89 0)
+				(at -10.16 8.89 0)
 				(length 3.81)
 				(name "*4"
 					(effects
@@ -2294,7 +2642,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 6.35 0)
+				(at -10.16 6.35 0)
 				(length 3.81)
 				(name "~5"
 					(effects
@@ -2312,7 +2660,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 3.81 0)
+				(at -10.16 3.81 0)
 				(length 3.81)
 				(name "~6"
 					(effects
@@ -2330,7 +2678,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 1.27 0)
+				(at -10.16 1.27 0)
 				(length 3.81)
 				(name "~7"
 					(effects
@@ -2348,9 +2696,9 @@
 				)
 			)
 			(pin output line
-				(at -11.43 -1.27 0)
+				(at -10.16 -1.27 0)
 				(length 3.81)
-				(name "8/IRQ"
+				(name "IRQ"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2366,7 +2714,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -3.81 0)
+				(at -10.16 -3.81 0)
 				(length 3.81)
 				(name "9"
 					(effects
@@ -2384,7 +2732,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -6.35 0)
+				(at -10.16 -6.35 0)
 				(length 3.81)
 				(name "10"
 					(effects
