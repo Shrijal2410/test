@@ -1439,7 +1439,7 @@
 			)
 		)
 	)
-	(symbol "LM3940"
+	(symbol "LM338"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1451,7 +1451,7 @@
 				)
 			)
 		)
-		(property "Value" "LM3940"
+		(property "Value" "LM338"
 			(at 0 1.905 0)
 			(do_not_autoplace)
 			(effects
@@ -1488,11 +1488,11 @@
 				(hide yes)
 			)
 		)
-		(symbol "LM3940_0_0"
-			(pin power_in line
-				(at -8.89 0 0)
+		(symbol "LM338_0_0"
+			(pin input line
+				(at 0 -6.35 90)
 				(length 2.54)
-				(name "IN"
+				(name "ADJ"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1508,11 +1508,11 @@
 				)
 			)
 		)
-		(symbol "LM3940_1_0"
-			(pin power_in line
-				(at 0 -6.35 90)
+		(symbol "LM338_1_0"
+			(pin passive line
+				(at 8.89 0 180)
 				(length 2.54)
-				(name "GND"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1527,10 +1527,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 8.89 0 180)
+			(pin power_in line
+				(at -8.89 0 0)
 				(length 2.54)
-				(name "OUT"
+				(name "IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1546,7 +1546,7 @@
 				)
 			)
 		)
-		(symbol "LM3940_1_1"
+		(symbol "LM338_1_1"
 			(rectangle
 				(start -6.35 3.81)
 				(end 6.35 -3.81)
@@ -2304,9 +2304,9 @@
 		)
 	)
 	(symbol "PWR"
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(property "Reference" "J"
 			(at 1.27 5.08 0)
 			(effects
