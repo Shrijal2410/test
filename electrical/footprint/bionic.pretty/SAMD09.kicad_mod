@@ -181,15 +181,6 @@
 		(uuid "e47a458b-bc9e-4116-ab7a-5ad49776577f")
 	)
 	(pad "11" thru_hole roundrect
-		(at -5.08 8.89)
-		(size 1.8 1.6)
-		(drill 0.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.1)
-		(uuid "11fbdd3f-5802-4352-b66c-1cbe336a68da")
-	)
-	(pad "11" thru_hole roundrect
 		(at -5.08 11.43)
 		(size 1.8 1.6)
 		(drill 0.8)
