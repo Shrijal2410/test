@@ -37,6 +37,6 @@ gigaChad.kicad_prl
 gigaChad-backups
 
 # Adding Library Table for easier import
-fp-lib-table
-sym-lib-table
+# fp-lib-table
+# sym-lib-table
 fp-info-cache
