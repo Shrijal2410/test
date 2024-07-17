@@ -306,4 +306,15 @@
 		(roundrect_rratio 0.1)
 		(uuid "a5f6c9c9-b935-432f-a34f-2c0191bce6fa")
 	)
+	(model "${KIPRJMOD}/3dmodel/SAMD09.step"
+		(offset
+			(xyz -6.35 -16.5 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

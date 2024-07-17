@@ -5909,7 +5909,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 36.83) (xy 82.55 36.83)
+			(xy 76.2 41.91) (xy 82.55 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6639,7 +6639,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 41.91) (xy 82.55 41.91)
+			(xy 76.2 36.83) (xy 82.55 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7871,7 +7871,7 @@
 		(uuid "73a85a24-04df-4a3f-a24c-59d029962873")
 	)
 	(label "L_RED"
-		(at 76.2 36.83 0)
+		(at 76.2 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8069,7 +8069,7 @@
 		(uuid "8bf96aef-844c-4655-a436-643542ab604b")
 	)
 	(label "L_BLU"
-		(at 76.2 41.91 0)
+		(at 76.2 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9584,7 +9584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "bionic:JST_1x06_P2.54mm_Vertical"
 			(at 133.35 88.9 0)
 			(effects
 				(font
@@ -10145,7 +10145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "bionic:JST_1x06_P2.54mm_Vertical"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -10228,7 +10228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "bionic:JST_1x06_P2.54mm_Vertical"
 			(at 133.35 66.04 0)
 			(effects
 				(font
@@ -10981,7 +10981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "bionic:JST_1x06_P2.54mm_Vertical"
 			(at 213.36 66.04 0)
 			(effects
 				(font
@@ -11199,7 +11199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "bionic:JST_1x06_P2.54mm_Vertical"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -11666,7 +11666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "bionic:JST_1x06_P2.54mm_Vertical"
 			(at 186.69 66.04 0)
 			(effects
 				(font
@@ -11749,7 +11749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "bionic:JST_1x06_P2.54mm_Vertical"
 			(at 186.69 88.9 0)
 			(effects
 				(font

@@ -234,7 +234,7 @@
 		(roundrect_rratio 0.1)
 		(uuid "04e392d1-79c6-4730-89af-c4e911c49ed2")
 	)
-	(model "RGEF500.stp"
+	(model "${KIPRJMOD}/3dmodel/RGEF500.stp"
 		(offset
 			(xyz 0 0 0)
 		)

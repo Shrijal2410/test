@@ -360,4 +360,15 @@
 		(roundrect_rratio 0.1)
 		(uuid "6a43da38-7acf-4f8a-a00b-bf8ea4e9115f")
 	)
+	(model "${KIPRJMOD}/3dmodel/esp32_30pin.step"
+		(offset
+			(xyz -12.1 -25 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

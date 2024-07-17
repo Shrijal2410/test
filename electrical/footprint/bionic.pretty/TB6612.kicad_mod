@@ -234,4 +234,15 @@
 		(roundrect_rratio 0.1)
 		(uuid "fa16b721-0179-4e9a-8d90-0b125aef786d")
 	)
+	(model "${KIPRJMOD}/3dmodel/TB6612.step"
+		(offset
+			(xyz -9.75 -11 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
