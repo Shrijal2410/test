@@ -305,6 +305,121 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -4597,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 129.54) (xy 93.98 129.54)
+			(xy 93.98 128.27) (xy 81.28 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4807,7 +4922,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 123.19) (xy 104.14 127)
+			(xy 91.44 121.92) (xy 91.44 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5067,7 +5182,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 127) (xy 93.98 127)
+			(xy 91.44 125.73) (xy 81.28 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6097,7 +6212,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 123.19) (xy 101.6 124.46)
+			(xy 88.9 121.92) (xy 88.9 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6137,7 +6252,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 129.54) (xy 106.68 123.19)
+			(xy 93.98 128.27) (xy 93.98 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6747,7 +6862,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 124.46) (xy 93.98 124.46)
+			(xy 88.9 123.19) (xy 81.28 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7505,7 +7620,7 @@
 		(uuid "4562d427-aff4-4a87-a62a-04de3da2eddf")
 	)
 	(label "+3V3"
-		(at 93.98 127 0)
+		(at 81.28 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7835,7 +7950,7 @@
 		(uuid "77b66552-54db-432c-97e9-e57b36b147d4")
 	)
 	(label "+6V"
-		(at 93.98 124.46 0)
+		(at 81.28 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8055,7 +8170,7 @@
 		(uuid "92448070-2790-4c4a-b0b3-10d620ab3535")
 	)
 	(label "GND"
-		(at 93.98 129.54 0)
+		(at 81.28 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8902,35 +9017,35 @@
 		(uuid "ffd54c2f-f74c-4d33-b74d-3d522f335578")
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 101.6 123.19 0)
-		(mirror y)
+		(lib_id "Connector:TestPoint_Probe")
+		(at 68.58 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0a7dd25d-d9f8-42dd-b915-9c017887bd4a")
-		(property "Reference" "#FLG02"
-			(at 101.6 121.285 0)
+		(fields_autoplaced yes)
+		(uuid "09ef5d17-bf9b-4bd7-af84-6b60c2f939ef")
+		(property "Reference" "T1"
+			(at 66.9925 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 101.6 119.38 0)
+		(property "Value" "TestPoint_Probe"
+			(at 68.2624 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 123.19 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 68.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8939,7 +9054,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 123.19 0)
+			(at 68.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "173344d7-c189-449f-9966-72b3e4b89f5d")
+		)
+		(instances
+			(project "bionic"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 88.9 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a7dd25d-d9f8-42dd-b915-9c017887bd4a")
+		(property "Reference" "#FLG02"
+			(at 88.9 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +9130,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 101.6 123.19 0)
+			(at 88.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,14 +9358,13 @@
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 58.42 120.65 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "18cf4a48-fa2c-42d0-831b-8f01864be502")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 58.42 116.84 0)
 			(effects
 				(font
@@ -9192,7 +9373,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 58.4835 124.46 0)
+			(at 58.4835 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +9417,7 @@
 		(instances
 			(project "bionic"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9542,7 +9723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46b4fcd7-debf-47f8-8e78-3fdf0dc7cd74")
-		(property "Reference" "D4"
+		(property "Reference" "MD4"
 			(at 255.27 20.32 0)
 			(effects
 				(font
@@ -9638,7 +9819,7 @@
 		(instances
 			(project "bionic"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D4")
+					(reference "MD4")
 					(unit 1)
 				)
 			)
@@ -9723,7 +9904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f18462d-80a2-4a01-b947-247ec00b77e4")
-		(property "Reference" "D8"
+		(property "Reference" "D4"
 			(at 92.71 137.16 0)
 			(effects
 				(font
@@ -9782,7 +9963,7 @@
 		(instances
 			(project "bionic"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D8")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9860,7 +10041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "680ff9f7-96be-4385-8064-7bcc34b0c231")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 46.355 124.46 90)
 			(effects
 				(font
@@ -9931,7 +10112,7 @@
 		(instances
 			(project "bionic"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10249,7 +10430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79fb6ed8-d802-4692-882f-c7949594aa3d")
-		(property "Reference" "D1"
+		(property "Reference" "MD1"
 			(at 140.97 20.32 0)
 			(effects
 				(font
@@ -10345,7 +10526,7 @@
 		(instances
 			(project "bionic"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1")
+					(reference "MD1")
 					(unit 1)
 				)
 			)
@@ -10353,7 +10534,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 104.14 123.19 0)
+		(at 91.44 121.92 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10362,7 +10543,7 @@
 		(dnp no)
 		(uuid "7d6ba6ff-38f4-4d74-a760-59b5981da7e7")
 		(property "Reference" "#FLG01"
-			(at 104.14 121.285 0)
+			(at 91.44 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,7 +10552,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 104.14 119.38 0)
+			(at 91.44 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10379,7 +10560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 123.19 0)
+			(at 91.44 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10388,7 +10569,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 123.19 0)
+			(at 91.44 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10397,7 +10578,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 104.14 123.19 0)
+			(at 91.44 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,7 +10608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80a6a587-6809-4048-b65b-ba896601cc24")
-		(property "Reference" "D2"
+		(property "Reference" "MD2"
 			(at 179.07 20.32 0)
 			(effects
 				(font
@@ -10523,7 +10704,7 @@
 		(instances
 			(project "bionic"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D2")
+					(reference "MD2")
 					(unit 1)
 				)
 			)
@@ -11086,7 +11267,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 106.68 123.19 0)
+		(at 93.98 121.92 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11095,7 +11276,7 @@
 		(dnp no)
 		(uuid "b5aa01b5-2ec0-4a47-85b8-39a5a02ce364")
 		(property "Reference" "#FLG03"
-			(at 106.68 121.285 0)
+			(at 93.98 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,7 +11285,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 105.41 119.38 0)
+			(at 92.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +11294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 123.19 0)
+			(at 93.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 123.19 0)
+			(at 93.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,7 +11312,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 106.68 123.19 0)
+			(at 93.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11224,7 +11405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "beeb9734-62eb-4f63-94ac-df3a4ffdf6b9")
-		(property "Reference" "D7"
+		(property "Reference" "D3"
 			(at 72.39 143.51 90)
 			(effects
 				(font
@@ -11277,7 +11458,7 @@
 		(instances
 			(project "bionic"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D7")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11706,7 +11887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6870fdf-2898-4319-86cd-1d112a6ea4c4")
-		(property "Reference" "D3"
+		(property "Reference" "MD3"
 			(at 217.17 20.32 0)
 			(effects
 				(font
@@ -11802,7 +11983,7 @@
 		(instances
 			(project "bionic"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D3")
+					(reference "MD3")
 					(unit 1)
 				)
 			)
