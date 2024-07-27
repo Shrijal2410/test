@@ -29,12 +29,8 @@ fp-info-cache
 *.xml
 # *.csv
 
-# Ignore the testproject files
-gigaChad.kicad_sch
-gigaChad.kicad_pro
-gigaChad.kicad_pcb
-gigaChad.kicad_prl
-gigaChad-backups
+# Ignore the production files
+electrical/fabrication-toolkit-options.json
 
 # Adding Library Table for easier import
 # fp-lib-table
